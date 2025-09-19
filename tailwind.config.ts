@@ -22,8 +22,6 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
-          glow: "hsl(var(--primary-glow))",
-          dark: "hsl(var(--primary-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -51,14 +49,11 @@ export default {
         },
       },
       backgroundImage: {
-        'hero-gradient': 'var(--hero-gradient)',
-        'primary-gradient': 'var(--primary-gradient)',
-        'glass-gradient': 'var(--glass-gradient)',
+        'hero-overlay': 'var(--hero-overlay)',
       },
       boxShadow: {
-        'primary': 'var(--shadow-primary)',
-        'card': 'var(--shadow-card)',
-        'glow': 'var(--shadow-glow)',
+        'subtle': 'var(--subtle-shadow)',
+        'card': 'var(--card-shadow)',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
